@@ -10,6 +10,8 @@
  * GNU General Public License for more details.
  */
 
+/delete-node/ &spi7_cs0_active;
+
 &tlmm{
 	nfc_irq_default: nfc_irq_default {
 		config {
@@ -249,7 +251,6 @@
 		};
 
 		spi7_cs0_active: spi7_cs0_active {
-			/* CS */
 			mux {
 				pins = "gpio87";
 				function = "blsp_spi7";

@@ -220,6 +220,7 @@
 	};
 
 	spi_7 {
+		/delete-node/ cs0_active;		
 		/* BLSP7 MOSI, MISO, CLK */
 		spi_7_active: spi_7_active {
 			/* active state */
